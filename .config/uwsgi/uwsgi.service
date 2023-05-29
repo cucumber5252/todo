@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
  
 [Service]
-ExecStart=/home/ubuntu/myvenv/bin/uwsgi -i /srv/todoproject/.config/uwsgi/uwsgi.ini
+ExecStart=/home/ubuntu/myvenv/bin/uwsgi -i /srv/todo/.config/uwsgi/uwsgi.ini
  
 Restart=always
 KillSignal=SIGQUIT
